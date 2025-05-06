@@ -1,5 +1,5 @@
 'use client';
-
+import { Suspense } from 'react';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 
@@ -18,33 +18,23 @@ type ApiResponse = {
   results: Result[];
 };
 
-export default function LastRunPage() {
-  const searchParams = useSearchParams();
-  const domain = searchParams.get('domain');
-  const [data, setData] = useState<ApiResponse | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    if (!domain) return;
-    const fetchData = async () => {
-      try {
-        const res = await fetch(`http://localhost:5100/api/v1/report/last-run?domain=${domain}`);
-        const json = await res.json();
-        setData(json);
-      } catch (err) {
-        console.error('Failed to fetch data:', err);
-        const res = await fetch('/sample.json');
-        const sampleData = await res.json();
-        setData(sampleData);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchData();
-  }, [domain]);
-
-  if (loading) return <div>Loading...</div>;
-  if (!data) return <div>No data available.</div>;
+function LastRunPage() {
+    const searchParams = useSearchParams();
+    const [data, setData] = useState<any>(null);
+  
+    useEffect(() => {
+      const domain = searchParams.get('domain') || 'LM';
+      fetch(`http://localhost:5100/api/v1/report/last-run?domain=${domain}`)
+        .then(res => res.json())
+        .then(setData)
+        .catch(async () => {
+          const res = await fetch('/sample.json');
+          const sampleData = await res.json();
+          setData(sampleData);
+        });
+    }, [searchParams]);
+  
+    if (!data) return <div>Loading data...</div>;
 
   return (
     <div style={{ padding: '20px' }}>
@@ -61,7 +51,7 @@ export default function LastRunPage() {
           </tr>
         </thead>
         <tbody>
-          {data.results.map((item) => (
+          {data.results.map((item:any) => (
             <tr key={item.storyURL}>
               <td>
                 <a href={item.storyURL} target="_blank" rel="noopener noreferrer">
@@ -80,3 +70,11 @@ export default function LastRunPage() {
     </div>
   );
 }
+
+export default function LastRunPageWrapper() {
+    return (
+      <Suspense fallback={<div>Loading reports, please wait...</div>}>
+        <LastRunPage />
+      </Suspense>
+    );
+  }
