@@ -1,0 +1,276 @@
+{
+    "domain": "LM",
+    "timestamp": "2025-05-05T10:00:00Z",
+    "results": [
+      {
+          "storyId": "11745572141493",
+          "singleCardsResponseTime": [
+              {
+                  "visible": 257,
+                  "productID": "B0DPHT2HZL",
+                  "scroll": 153,
+                  "cardNumber": 1
+              },
+              {
+                  "visible": 140,
+                  "productID": "B0DPHTSTYJ",
+                  "scroll": 167,
+                  "cardNumber": 2
+              },
+              {
+                  "visible": 146,
+                  "productID": "B09DD573SY",
+                  "scroll": 161,
+                  "cardNumber": 3
+              },
+              {
+                  "visible": 157,
+                  "productID": "B0C3LHV43S",
+                  "scroll": 131,
+                  "cardNumber": 4
+              },
+              {
+                  "visible": 103,
+                  "productID": "B0BD8ZPFJQ",
+                  "scroll": 101,
+                  "cardNumber": 5
+              }
+          ],
+          "singleCardsTagAndCTAIssue": [],
+          "totalMultiProductCarousel": 1,
+          "singleCardsNotRendered": [],
+          "totalSingleCards": 5,
+          "sessionID": "26f8e8c1279da96c57f4296d741ad9ff64da5fb6",
+          "topWidgetCardsNotRendered": [
+              {
+                  "productId": "B0BFBLXVC8",
+                  "cardNumber": 10
+              }
+          ],
+          "platform": "WEB",
+          "topWidgetCardsNameIssue": [],
+          "storyURL": "https://www.livemint.com/technology/gadgets/big-price-drops-alert-lg-washing-machines-now-more-affordable-with-new-offers-starting-at-just-rs-10341-11745572141493.html",
+          "topWidgetCardsTagAndCTAIssue": [],
+          "formatType": "Sale",
+          "multiProductCarouselsResponseTime": [
+              {
+                  "visible": 272,
+                  "scroll": 145,
+                  "cardNumber": 1
+              }
+          ],
+          "timestamp": "Mon May 05 19:43:12 IST 2025",
+          "totalAdUnits": 12
+      },
+      {
+          "storyId": "11745392433037",
+          "singleCardsResponseTime": [
+              {
+                  "visible": 101,
+                  "productID": "B0BH8WST87",
+                  "scroll": 103,
+                  "cardNumber": 1
+              },
+              {
+                  "visible": 96,
+                  "productID": "B0CX5G4Y68",
+                  "scroll": 159,
+                  "cardNumber": 2
+              },
+              {
+                  "visible": 103,
+                  "productID": "B0C1HB6M7J",
+                  "scroll": 112,
+                  "cardNumber": 3
+              },
+              {
+                  "visible": 61,
+                  "productID": "B08HZFCDHK",
+                  "scroll": 145,
+                  "cardNumber": 4
+              },
+              {
+                  "visible": 102,
+                  "productID": "B0CX5FQRPF",
+                  "scroll": 103,
+                  "cardNumber": 5
+              }
+          ],
+          "singleCardsTagAndCTAIssue": [],
+          "totalMultiProductCarousel": 0,
+          "singleCardsNotRendered": [],
+          "totalSingleCards": 5,
+          "sessionID": "26f8e8c1279da96c57f4296d741ad9ff64da5fb6",
+          "topWidgetCardsNotRendered": [],
+          "clickHereToBuyWithWrongTagsOrCTAIssue": [],
+          "platform": "WEB",
+          "topWidgetCardsNameIssue": [
+              {
+                  "actual": "LG 164 cm (65 inches) 4K Ultra HD Smart OLED TV 65BXPTA (Dark Steel Silver)",
+                  "rendered": true,
+                  "expected": "LG 164 cm (65 inches) 4K Ultra HD Smart OLED TV 65BXPTA (Dark Steel Silver) (2020 Model)",
+                  "widgetNumber": 4
+              }
+          ],
+          "storyURL": "https://www.livemint.com/technology/gadgets/best-oled-tv-for-a-theatre-like-immersive-experience-at-home-top-5-picks-for-brilliant-visuals-and-immersive-sound-11745392433037.html",
+          "topWidgetCardsTagAndCTAIssue": [],
+          "formatType": "",
+          "timestamp": "Mon May 05 19:44:48 IST 2025",
+          "totalAdUnits": 5
+      },
+      {
+          "storyId": "11746176964004",
+          "totalMultiProductCarousel": 8,
+          "totalSingleCards": 0,
+          "sessionID": "26f8e8c1279da96c57f4296d741ad9ff64da5fb6",
+          "topWidgetCardsNotRendered": [
+              {
+                  "productId": "B00SHFP99W",
+                  "cardNumber": 7
+              },
+              {
+                  "productId": "B0BN1XT6TF",
+                  "cardNumber": 36
+              },
+              {
+                  "productId": "B0CJ7GLV97",
+                  "cardNumber": 37
+              }
+          ],
+          "platform": "WEB",
+          "topWidgetCardsNameIssue": [
+              {
+                  "actual": "",
+                  "rendered": true,
+                  "expected": "LG Electronics Ultragear 21:9 Curved Gaming LED Monitor 86.42 Cm (34 Inch),Qhd 3440 X 1440,5Ms,160Hz,AMD Freesync Premium,HDR 10,Srgb 99%,Height Adjust Stand,Dp,Hdmi,Speaker,Headphone Out,34Gp63A",
+                  "widgetNumber": 30
+              }
+          ],
+          "multiProductCarouselFailures": [
+              {
+                  "cardsTagAndCTAIssue": [],
+                  "cardsNotRendered": [
+                      {
+                          "productId": "B09C2JSMFB"
+                      },
+                      {
+                          "productId": "B0DHRRV424"
+                      },
+                      {
+                          "productId": "B09RPJL6NL"
+                      },
+                      {
+                          "productId": "B0DKFTZCJ2"
+                      },
+                      {
+                          "productId": "B0C61NNG55"
+                      },
+                      {
+                          "productId": "B0CZXVHPRN"
+                      },
+                      {
+                          "productId": "B0BRQZG5NB"
+                      }
+                  ],
+                  "widgetNumber": 4
+              },
+              {
+                  "cardsTagAndCTAIssue": [],
+                  "cardsNotRendered": [
+                      {
+                          "productId": "B0DVC7MC39"
+                      },
+                      {
+                          "productId": "B0CJ7GLV97"
+                      },
+                      {
+                          "productId": "B08M4V9WQG"
+                      },
+                      {
+                          "productId": "B09F5Z694W"
+                      },
+                      {
+                          "productId": "B0CJ82KR2H"
+                      },
+                      {
+                          "productId": "B00WP39JLG"
+                      }
+                  ],
+                  "widgetNumber": 7
+              },
+              {
+                  "cardsTagAndCTAIssue": [],
+                  "cardsNotRendered": [
+                      {
+                          "productId": "B09MFHQL9J"
+                      },
+                      {
+                          "productId": "B09T3KM7Y1"
+                      },
+                      {
+                          "productId": "B09RF89MJQ"
+                      },
+                      {
+                          "productId": "B0B5MN5TMM"
+                      },
+                      {
+                          "productId": "B09NDP61QT"
+                      },
+                      {
+                          "productId": "B018ZE6G7I"
+                      }
+                  ],
+                  "widgetNumber": 8
+              }
+          ],
+          "storyURL": "https://www.livemint.com/technology/gadgets/amazon-summer-sale-brings-unbeatable-discounts-up-to-65-on-monitors-and-printers-across-budget-from-top-brands-11746176964004.html",
+          "topWidgetCardsTagAndCTAIssue": [],
+          "formatType": "Sale",
+          "multiProductCarouselsResponseTime": [
+              {
+                  "visible": 219,
+                  "scroll": 155,
+                  "cardNumber": 1
+              },
+              {
+                  "visible": 214,
+                  "scroll": 135,
+                  "cardNumber": 2
+              },
+              {
+                  "visible": 148,
+                  "scroll": 151,
+                  "cardNumber": 3
+              },
+              {
+                  "visible": 249,
+                  "scroll": 181,
+                  "cardNumber": 4
+              },
+              {
+                  "visible": 157,
+                  "scroll": 206,
+                  "cardNumber": 5
+              },
+              {
+                  "visible": 205,
+                  "scroll": 305,
+                  "cardNumber": 6
+              },
+              {
+                  "visible": 307,
+                  "scroll": 224,
+                  "cardNumber": 7
+              },
+              {
+                  "visible": 206,
+                  "scroll": 205,
+                  "cardNumber": 8
+              }
+          ],
+          "timestamp": "Mon May 05 19:46:41 IST 2025",
+          "totalAdUnits": 64
+      }
+  ]
+  }
+  
